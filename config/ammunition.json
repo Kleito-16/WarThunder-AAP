@@ -1,0 +1,26 @@
+[
+  {
+    "id": "demo-he",
+    "displayName": "HE de demonstração",
+    "projectileType": "HE",
+    "effectRadiusM": 20,
+    "explosiveMassKgTnt": null,
+    "source": {
+      "label": "Valor sintético exclusivo do modo demo",
+      "verifiedAt": "2026-09-04"
+    },
+    "confidence": "estimated"
+  },
+  {
+    "id": "3of32-he",
+    "displayName": "3OF32 HE",
+    "projectileType": "HE",
+    "effectRadiusM": null,
+    "explosiveMassKgTnt": null,
+    "source": {
+      "label": "Perfil sem propriedades balísticas verificadas; requer curadoria",
+      "verifiedAt": "2026-09-04"
+    },
+    "confidence": "unknown"
+  }
+]

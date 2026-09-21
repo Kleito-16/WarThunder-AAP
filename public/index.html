@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>WT — Controle de Fogo</title><link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <header class="topbar">
+    <div><span class="eyebrow">WAR THUNDER / PROTÓTIPO LOCAL</span><h1>CONTROLE DE FOGO · ARTILHARIA</h1></div>
+    <div class="status"><i id="status-dot"></i><span id="connection">CONECTANDO</span><small id="mode">—</small></div>
+  </header>
+  <main>
+    <section class="map-panel">
+      <div class="map-tools"><span>CLIQUE PARA DESIGNAR · ARRASTE PARA AJUSTAR</span><button id="center-player">CENTRAR JOGADOR</button></div>
+      <div id="map-wrap"><canvas id="map"></canvas><div id="map-message">CARREGANDO MAPA…</div><div id="cursor-coords"></div></div>
+      <div class="legend"><span><i class="player-key"></i> JOGADOR</span><span><i class="target-key"></i> ALVO</span><span>AZIMUTE: NORTE = 000°</span></div>
+    </section>
+    <aside>
+      <section class="card"><div class="card-title">PLATAFORMA</div><label>VEÍCULO<select id="vehicle"></select></label><label>MUNIÇÃO<select id="ammo"></select></label><div id="calibration" class="notice"></div></section>
+      <section class="card targets"><div class="card-title"><span>PONTOS DE MIRA</span><button id="clear-targets">LIMPAR</button></div><div id="target-list" class="target-list"><p class="empty">Clique no mapa para criar o primeiro ponto.</p></div></section>
+      <section class="card disclaimer"><strong>LIMITAÇÕES DO PROTÓTIPO</strong><p>Cálculo 2D, sem terreno, trajetória, vento ou solução de elevação. Não envia comandos ao jogo.</p></section>
+    </aside>
+  </main>
+  <footer><span id="sequence">SEQ —</span><span>FONTE LOCAL · 127.0.0.1:8111</span><span id="clock">—</span></footer>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

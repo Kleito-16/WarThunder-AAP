@@ -1,0 +1,14 @@
+{
+  "demo-grid-v1": {
+    "id": "demo-grid-v1-calibration",
+    "worldUnitsPerMetre": 1,
+    "orientationMatrix": [1, 0, 0, -1],
+    "source": "Synthetic fixture with known scale and north-up orientation"
+  },
+  "default-live": {
+    "id": "wt-8111-configured-standard-v1",
+    "worldUnitsPerMetre": 1,
+    "orientationMatrix": [1, 0, 0, -1],
+    "source": "Configured from the documented 8111 image coordinate convention; recalibrate after game updates"
+  }
+}

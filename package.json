@@ -1,0 +1,18 @@
+{
+  "name": "war-thunder-artillery-interface-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local, read-only artillery interface prototype for War Thunder localhost:8111.",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "node --watch src/server.ts",
+    "start": "node src/server.ts",
+    "demo": "node src/server.ts --demo",
+    "build": "node scripts/build.ts",
+    "test": "node --test tests/unit/*.test.ts tests/integration/*.test.ts"
+  },
+  "license": "UNLICENSED"
+}

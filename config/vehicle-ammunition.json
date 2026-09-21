@@ -1,0 +1,60 @@
+[
+  {
+    "id": "demo-artillery-demo-he",
+    "vehicleProfileId": "demo-artillery",
+    "ammoProfileId": "demo-he",
+    "weaponMountId": "demo-main-gun",
+    "muzzleVelocityMps": 300,
+    "minRangeM": 100,
+    "maxRangeM": 3000,
+    "source": {
+      "label": "Envelope sintético exclusivo do modo demo",
+      "verifiedAt": "2026-09-04"
+    },
+    "confidence": "estimated"
+  },
+  {
+    "id": "bmp-3-3of32",
+    "vehicleProfileId": "bmp-3",
+    "ammoProfileId": "3of32-he",
+    "weaponMountId": "100mm-main-gun",
+    "source": {
+      "label": "Compatibilidade nominal; alcance e efeito ainda não curados",
+      "verifiedAt": "2026-09-04"
+    },
+    "confidence": "unknown"
+  },
+  {
+    "id": "bmd-4-3of32",
+    "vehicleProfileId": "bmd-4",
+    "ammoProfileId": "3of32-he",
+    "weaponMountId": "100mm-main-gun",
+    "source": {
+      "label": "Compatibilidade nominal; alcance e efeito ainda não curados",
+      "verifiedAt": "2026-09-04"
+    },
+    "confidence": "unknown"
+  },
+  {
+    "id": "bmd-4m-3of32",
+    "vehicleProfileId": "bmd-4m",
+    "ammoProfileId": "3of32-he",
+    "weaponMountId": "100mm-main-gun",
+    "source": {
+      "label": "Compatibilidade nominal; alcance e efeito ainda não curados",
+      "verifiedAt": "2026-09-04"
+    },
+    "confidence": "unknown"
+  },
+  {
+    "id": "zbd04a-3of32",
+    "vehicleProfileId": "zbd04a",
+    "ammoProfileId": "3of32-he",
+    "weaponMountId": "100mm-main-gun",
+    "source": {
+      "label": "Compatibilidade nominal; alcance e efeito ainda não curados",
+      "verifiedAt": "2026-09-04"
+    },
+    "confidence": "unknown"
+  }
+]

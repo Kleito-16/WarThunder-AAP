@@ -1,0 +1,32 @@
+[
+  {
+    "id": "demo-artillery",
+    "displayName": "Plataforma de demonstração",
+    "telemetryAliases": ["demo/artillery"],
+    "vehicleAmmoProfileIds": ["demo-artillery-demo-he"]
+  },
+  {
+    "id": "bmp-3",
+    "displayName": "BMP-3",
+    "telemetryAliases": ["tankModels/ussr_bmp_3"],
+    "vehicleAmmoProfileIds": ["bmp-3-3of32"]
+  },
+  {
+    "id": "bmd-4",
+    "displayName": "BMD-4",
+    "telemetryAliases": ["tankModels/ussr_bmd_4"],
+    "vehicleAmmoProfileIds": ["bmd-4-3of32"]
+  },
+  {
+    "id": "bmd-4m",
+    "displayName": "BMD-4M",
+    "telemetryAliases": ["tankModels/ussr_bmd_4m"],
+    "vehicleAmmoProfileIds": ["bmd-4m-3of32"]
+  },
+  {
+    "id": "zbd04a",
+    "displayName": "ZBD04A",
+    "telemetryAliases": ["tankModels/cn_zbd_04a"],
+    "vehicleAmmoProfileIds": ["zbd04a-3of32"]
+  }
+]
